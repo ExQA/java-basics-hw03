@@ -20,7 +20,6 @@ public class Student {
 
   }
 
-
  // состояние (поля класса)
   private int rating;
   private String name;
@@ -35,7 +34,7 @@ public class Student {
 
   public Student() { // дефолтный конструктор без параметров  !default constructor
     allStudents.add(this);
-  }
+  } //list with all students
 
   public static double getAvgRating() {
     int numberOfStudents = allStudents.size();
